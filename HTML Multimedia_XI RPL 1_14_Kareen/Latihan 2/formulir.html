@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="E:\File Instalasi\Favicon/favicon.ico">
+	<title>Latihan 2 - Formulir</title>
+	<style>
+		.border{
+			border: 2px outset black;
+			width: 520px;
+			padding: 15px;
+			letter-spacing: 0.5px;
+		}
+	</style>
+</head>
+<body bgcolor="#FFDAB9" leftmargin="30%" link="#B22222" alink="#008000" vlink="#B22222">
+	<div class="border">
+		<h1 align="middle"><center>Latihan Formulir</center></h1>
+		<form>
+			<fieldset>
+				<legend align="center">Input Data</legend>
+				<small>
+					<table cellpadding="3">
+						<tr>
+							<td>Nama</td>
+							<td>:</td>
+							<td>
+								<label for="nama"></label>
+								<input type="text" id="nama" name="nama" size="20" placeholder="Masukan Nama Lengkap">
+							</td>
+						</tr>
+						<tr>
+							<td>Password</td>
+							<td>:</td>
+							<td>
+								<label for="pass"></label>
+								<input type="password" id="pass" name="pass" size="20">
+							</td>
+						</tr>
+						<tr>
+							<td>Tanggal Lahir</td>
+							<td>:</td>
+							<td>
+								<label for="tgl"></label>
+								<input type="date" id="tgl" name="tgl">
+							</td>
+						</tr>
+						<tr>
+							<td>Jenis kelamin</td>
+							<td>:</td>
+							<td>
+								<label for="jk"></label>
+								<input type="radio" id="jk" name="jk">&nbsp;Laki - Laki
+								<input type="radio" id="jk" name="jk">&nbsp;Perempuan
+							</td>
+						</tr>
+						<tr>
+							<td>Nomor Telepon</td>
+							<td>:</td>
+							<td>
+								<label for="no_telp"></label>
+								<input type="number" id="no_telp" name="no_telp" size="20" placeholder="Masukan Nomor Telepon">
+							</td>
+						</tr>
+						<tr>
+							<td>Asal Kota</td>
+							<td>:</td>
+							<td>
+								<label for="askot"></label>
+								<select id="askot" name="askot">
+									<optgroup label="Jawa Tengah">
+										<option>Banjarnegara</option>
+										<option>Batang</option>
+										<option>Blora</option>
+										<option>Boyolali</option>
+										<option>Brebes</option>
+										<option>Cilacap</option>
+										<option>Demak</option>
+										<option>Jepara</option>
+										<option>Kajen</option>
+										<option>Karanganyar</option>
+										<option>Kebumen</option>
+										<option>Kendal</option>
+										<option>Klaten</option>
+										<option>Kudus</option>
+										<option>Magelang</option>
+										<option>Mungkid</option>
+										<option>Pati</option>
+										<option>Pekalongan</option>
+										<option>Pemalang</option>
+										<option>Purbalingga</option>
+										<option>Purwodadi</option>
+										<option selected="select">Purwokerto</option>
+										<option>Purworejo</option>
+										<option>Rembang</option>
+										<option>Salatiga</option>
+										<option>Semarang</option>
+										<option>Sragen</option>
+										<option>Sukoharjo</option>
+										<option>Surakarta</option>
+										<option>Slawi</option>
+										<option>Tegal</option>
+										<option>Temanggung</option>
+										<option>Ungaran</option>
+										<option>Wonogiri</option>
+										<option>Wonosobo</option>
+									</optgroup>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Alamat</td>
+							<td>:</td>
+							<td>
+								<label for="alamat"></label>
+								<textarea id="alamat" placeholder="Ketikan Alamat Anda" cols="22" rows="5"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td>Hobi</td>
+							<td>:</td>
+							<td>
+								<label for="hobi"></label>
+								<input type="checkbox" id="hobi" name="hobi">Membaca Buku
+								<input type="checkbox" id="hobi" name="hobi" checked="checked">Menulis
+								<input type="checkbox" id="hobi" name="hobi">Memancing
+							</td>
+						</tr>
+						<tr>
+							<td>Makanan Favorit</td>
+							<td>:</td>
+							<td>
+								<input type="text" list="food">
+								<datalist id="food">
+									<option>Rawon</option>
+									<option>Batagor</option>
+									<option>Siomay</option>
+									<option>Pizza</option>
+									<option>Burger</option>
+									<option>Kentang Goreng</option>
+									<option>Waffle</option>
+									<option>Gado-Gado</option>
+									<option>Nasi Padang</option>
+									<option>Nasi Uduk</option>
+									<option>Nasi Goreng</option>
+									<option>Mie Instan</option>
+									<option>Gorengan</option>
+									<option>Opor Ayam</option>
+									<option>Ayam Goreng</option>
+								</datalist>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3" align="right">
+								<input type="submit" name="submit">
+								<input type="reset" name="reset">
+							</td>
+						</tr>
+					</table>
+				</small>
+			</fieldset>
+		</form>
+		<br>
+		<center><button><a href="multimedia.html" target="_blank"><b>Next Page</b></a></button></center>
+	</div>
+</body>
+</html>
